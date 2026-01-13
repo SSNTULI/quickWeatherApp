@@ -10,7 +10,7 @@ const openWeatherApiBase = "http://api.weatherapi.com/v1/forecast.json";
 const currLocationAPI = "http://ip-api.com/json/";
 app.use(bodyParser.urlencoded({ extended: true }));
 
-//http://api.weatherapi.com/v1/forecast.json?key=1474472614184954a8200353251711&days=2&aqi=yes&alerts=yes&q=Johannesburg
+//http://api.weatherapi.com/v1/forecast.json?key=****************&days=2&aqi=yes&alerts=yes&q=Johannesburg
 
 // Set EJS
 app.set("view engine", "ejs");
