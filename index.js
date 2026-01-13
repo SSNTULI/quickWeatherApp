@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 const app = express();
 const port = 3000;
 const todayDate = new Date();
-const openWeatherApiKey = "1474472614184954a8200353251711";
+const openWeatherApiKey = "********";
 const openWeatherApiBase = "http://api.weatherapi.com/v1/forecast.json";
 const currLocationAPI = "http://ip-api.com/json/";
 app.use(bodyParser.urlencoded({ extended: true }));
